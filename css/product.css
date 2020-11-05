@@ -1,0 +1,167 @@
+
+a {
+text-decoration: none;
+color: #222426;
+}
+
+.contents_p1 {
+padding-top: 120px;
+width: 100%;
+height: auto;
+}
+
+.contents_p1 h3 {
+font-size: 28px;
+letter-spacing: .15em;
+margin-bottom: 16px;
+padding: 0%;
+}
+
+.contents_p1 p {
+font-size: 14px;
+letter-spacing: .15em;
+padding: 0%;
+width: 31%;
+}
+
+.main-image3 {
+width: 100%;
+height: auto;
+background-color: thistle;
+}
+
+.product_inner {
+width: 100%;
+background-color: bisque;
+display: flex;
+margin-bottom: 24px;
+}
+
+
+.p1-leftbox {
+width: 100%;
+height: auto;
+background-image: url(../images/p1-img-michi4.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+padding: 8% 8% 30%;
+margin-bottom: 2%;
+}
+
+.p1-text1 {
+width: 100%;
+height: auto;
+position: absolute;
+color: #ffffff;
+text-shadow: 0.1px 0.1px 5px #5c5c5c;
+
+    }
+
+.p1-lineup-inner{
+position: relative;
+}
+
+.p1-leftbox2 {
+width: 100%;
+height: auto;
+background-image: url(../images/p1-img-shirokuma.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+padding: 8% 8% 30%;
+margin-bottom: 2%;
+background-position-y: 74%;
+}
+
+.p1-text2 {
+width: 100%;
+height: auto;
+position: absolute;
+left: 65%;
+color: #ffffff;
+text-shadow: 0.1px 0.1px 5px #5c5c5c;
+}
+
+.p1-leftbox3 {
+width: 100%;
+height: auto;
+background-image: url(../images/works-by.png);
+background-repeat: no-repeat;
+background-size: cover;
+padding: 8% 8% 30%;
+margin-bottom: 2%;
+background-blend-mode: exclusion;
+filter: contrast(117%);
+background-color: rgba(0,235,225,0.2);
+background-position-y: 52%;
+}
+
+.contents5 {
+ background-color: #3f3232;
+ width: 100%;
+ height: 900px;
+}
+
+/**** BTN No. 5 ****/
+.btn-5 {
+    background-color: rgba(105, 98, 72, 10%);
+    width: 100%;
+    height: 72px;
+    line-height: 72px;
+    padding: 0;
+    border: none;
+    color: #686248;
+  }
+  .btn-5 span {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+  .btn-5:before,
+  .btn-5:after {
+    position: absolute;
+    content: "";
+    right: 0;
+    top: 0;
+    background: #686248;
+    transition: all 0.3s ease;
+  }
+  .btn-5:before {
+    height: 0%;
+    width: 1px;
+  }
+  .btn-5:after {
+    width: 0%;
+    height: 1px;
+  }
+  .btn-5:hover:before {
+    height: 100%;
+    color: rgba(94, 94, 94, 0.5);
+  }
+  .btn-5:hover:after {
+    width: 100%;
+    color: rgba(255, 255, 255, 0.5);
+  }
+  .btn-5 span:before,
+  .btn-5 span:after {
+    position: absolute;
+    content: "";
+    left: 0;
+    bottom: 0;
+    background: #686248;
+    transition: all 0.3s ease;
+  }
+  .btn-5 span:before {
+    width: 1px;
+    height: 0%;
+  }
+  .btn-5 span:after {
+    width: 0%;
+    height: 1px;
+  }
+  .btn-5 span:hover:before {
+    height: 100%;
+  }
+  .btn-5 span:hover:after {
+    width: 100%;
+  }
