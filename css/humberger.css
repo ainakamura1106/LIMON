@@ -10,7 +10,7 @@
 .menu-trigger
 ======================= */
 .menu-trigger {
-  display: none; /*PCの時は消しておく*/
+  display: inline-block; /*PCの時は消しておく*/
   -webkit-appearance: none; /* Crome用　フォ-ム要素の初期化*/
   appearance: none; /*フォ-ム要素の初期化*/
   border: none;
@@ -38,8 +38,6 @@ responsive
   display: none;
   }
 }
-
-
 
 @media (max-width:767px) {
   /*----- スマホ ハンバーガーメニュー ----- */
