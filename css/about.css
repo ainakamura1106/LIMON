@@ -138,7 +138,7 @@ text-align: left;
 width: 100%;
 height: auto;
 background-color: #f2f3f5;
-padding: 48px 62px 65px 62px;
+padding: 8% 12%;
 }
 
 .section4 li{
@@ -147,10 +147,15 @@ display: flex;
 
 }
 
-.Magin {
-  margin-right: 15%;
+.company-title {
+  margin-left: 5%;
   padding-bottom: 14px;
   text-align: left;
+}
+
+.company-t2 {
+  margin-left: 45%;
+
 }
 .border-c{
 width: 100px;

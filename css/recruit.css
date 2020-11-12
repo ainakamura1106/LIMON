@@ -1,0 +1,39 @@
+
+.R-1 {
+width: 100%;
+height: auto;
+margin-bottom: 95px;
+margin-top: 48px;
+padding:0 10%;
+}
+
+.R-1 h3 {
+    font-size: ;
+}
+.recruit-list {
+display: flex;
+flex-wrap: wrap;
+background-color: #fff;
+margin: 0 auto;
+}
+
+/* dl {
+padding-left: 20px;
+margin-top: 57px;
+line-height: 1.8;
+} */
+
+dd {
+    line-height: 24px;
+    padding: 2.3%;
+    border-top: 2px solid #fbfbfb;
+    background-color: #fff;
+}
+
+dt {
+    width: 25.5%;
+    padding: 2.3%;
+    line-height: 24px;
+    border-top: 2px solid #fbfbfb;
+    background-color: #f2f3f5;;
+}

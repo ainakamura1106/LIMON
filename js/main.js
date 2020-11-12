@@ -81,15 +81,15 @@ $(window).on('scroll load', function (){
 
         // 要素の高さを取得
         let targetPos = $(this).offset().top;
-            console.log(targetPos)
+          
 
         // スクロールの値を取得
         let scroll = $(window).scrollTop();
-        console.log(scroll)
+      
 
         // ウインドウの高さを取得
         let windowHeight = $(window).height();
-        console.log(windowHeight)
+
 
         // ターゲットが可視範囲に入ったら
         // +100とかちょっとずらして範囲の調整も可能

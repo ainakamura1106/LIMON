@@ -1,4 +1,6 @@
 /* ------------------ 初期設定 START------------------ */
+@charset "UTF-8";
+
 *{
   margin:0;
   padding: 0;
@@ -15,6 +17,7 @@ body {
   color: #222426;
   font-size: 14px;
   letter-spacing: 0.5px;
+  overflow: auto;
 }
 
 article {
@@ -1036,10 +1039,6 @@ display: none
 /* 0~768pxの画面サイズの時の設定 */
 @media(max-width: 1440px){
 
-  /* あとでへんこう */
-  /* #global-nav{
-    display:none;
-  } */
   article {
       padding: 0 50px 0px 50;
       /* //さいい可変 */
@@ -1047,63 +1046,31 @@ display: none
       margin: 0 14%;   
   }
 
-  .content_1 {
-      display: block;
-      /* display flex→block で下に落とした 縦並びにした*/
-  }
-
-  /* article section h2 {
-      font-size: 13px;
-  } 
-
-  article section p {
-      font-size: 10px;
-  } */
-  .content_1,{
-      margin-bottom: 48px;
-
-  }
-  /* article section#content01  */
-
-
-  article section#content01 div {
-      width: 100%;
-      margin-bottom: 24px;
-
-  }
-
-  .content_1 figure {
-      width: 100%;
-
-  }
-
-  .content_1 h2,{    
-      margin: 0 0 12px;
-      text-align: left;
-  }
-
-  /* article section#content02 h2  */
-
-  article section#content02 #photo_list li {
-      width: 50%;
-      box-sizing: border-box;
-      padding: 4px 6px;
-      margin-bottom: 0;
-  }
-
- .contents_2 .works-contens img {
-      width: 100%;
-      object-fit: cover;
-  }
-
-  .top-photo1 img {
-    object-fit: cover;
-  }
 }
 
-/* 768px END */
+@media screen and (max-width: 1024px) { 
 
 
+
+}
+@media screen and (max-width: 896px) { 
+
+
+
+
+}
+@media screen and (max-width: 480px) {
+
+ .swiper-img{
+  width: 78%;
+  height: 53vh;
+  object-fit: contain;
+
+  }
+
+
+
+ }
 
 /* 追記 */
 .color-white{
