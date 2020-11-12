@@ -40,7 +40,7 @@ responsive
     width: 100vw;
     height: 60px;
     background-color: rgba(0,0,0,0.8);
-    z-index: 10;
+    z-index: 4;
   }
   .menu-trigger {
     width: 56px;
@@ -50,7 +50,7 @@ responsive
     top: 0;
     right: 0;
     /*要素の重なり、上のレイヤーと同じ考えかた*/
-    z-index: 11;
+    z-index: 5;
     /*クリックした際のボタン周りの線を消す*/
     outline: none;
   }
@@ -100,11 +100,11 @@ responsive
     top: 0;
     left: 50%;
     transform: translateX(-50%);
-    z-index: -10;/* 何かしらの要素の背面に設置*/
+    z-index: -4;/* 何かしらの要素の背面に設置*/
   }
   #global-nav.active {
     display: block;/* クリックした時に表示*/
-    z-index: 10;/* 何かしらの要素の全面に設置*/
+    z-index: 3;/* 何かしらの要素の全面に設置*/
   }
 
   #global-nav ul {
@@ -126,6 +126,6 @@ responsive
     font-size: 24px;
     text-align: center;
     background: none;
-    padding-top: 12px;
+   
   }
 }/* max-width:767px END*/
