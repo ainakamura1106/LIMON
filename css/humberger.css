@@ -60,7 +60,6 @@ responsive
     z-index: 5;
     /*クリックした際のボタン周りの線を消す*/
     outline: none;
-
   }
   .menu-trigger span {
     position: absolute;
