@@ -35,7 +35,7 @@ responsive
 ======================= */
 @media (max-width:1440px) {
   .sp_header {
-  display: inline-block;
+  display: none;
   }
 }
 
@@ -47,6 +47,7 @@ responsive
     height: 60px;
     /* background-color: rgba(0,0,0,0.8); */
     z-index: 4;
+    display: inline;
   }
   .menu-trigger {
     width: 56px;
@@ -59,6 +60,7 @@ responsive
     z-index: 5;
     /*クリックした際のボタン周りの線を消す*/
     outline: none;
+
   }
   .menu-trigger span {
     position: absolute;
