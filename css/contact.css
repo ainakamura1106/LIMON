@@ -76,7 +76,7 @@ padding-bottom: 24px;
   }
   form.contact-form ul li input[type="text"]:focus {
     outline: none;
-    border-bottom: 3px solid #f1a6f3;
+    border-bottom: 3px solid #686248;
   }
   form.contact-form ul li input[type="text"]::-webkit-input-placeholder {
     -webkit-transition: color 0.35s ease;
@@ -102,16 +102,16 @@ padding-bottom: 24px;
     color: #ccc;
   }
   form.contact-form ul li input[type="text"]:focus::-webkit-input-placeholder {
-    color: #f1a6f3;
+    color: #686248;
   }
   form.contact-form ul li input[type="text"]:focus:-moz-placeholder {
-    color: #f1a6f3;
+    color: #686248;
   }
   form.contact-form ul li input[type="text"]:focus::-moz-placeholder {
-    color: #f1a6f3;
+    color: #686248;
   }
   form.contact-form ul li input[type="text"]:focus:-ms-input-placeholder {
-    color: #f1a6f3;
+    color: #686248;
   }
   form.contact-form ul li textarea {
     display: inline-block;
@@ -134,7 +134,7 @@ padding-bottom: 24px;
   }
   form.contact-form ul li textarea:focus {
     outline: none;
-    border-bottom: 3px solid #f1a6f3;
+    border-bottom: 3px solid #686248;
   }
   form.contact-form ul li textarea::-webkit-scrollbar {
     width: 4px;
@@ -167,16 +167,16 @@ padding-bottom: 24px;
     color: #ccc;
   }
   form.contact-form ul li textarea:focus::-webkit-input-placeholder {
-    color: #f1a6f3;
+    color: ##686248;
   }
   form.contact-form ul li textarea:focus:-moz-placeholder {
-    color: #f1a6f3;
+    color: ##686248;
   }
   form.contact-form ul li textarea:focus::-moz-placeholder {
-    color: #f1a6f3;
+    color: ##686248;
   }
   form.contact-form ul li textarea:focus:-ms-input-placeholder {
-    color: #f1a6f3;
+    color: ##686248;
   } 
   form.contact-form ul li input[type="submit"] {
     margin: 15px auto 15px;
@@ -193,11 +193,11 @@ padding-bottom: 24px;
   }
   form.contact-form ul li input[type="submit"]:focus {
     outline: none;
-    border: 1px solid #f1a6f3;
+    border: 1px solid ##686248;
   }
   form.contact-form ul li input[type="submit"]:hover {
     background: #eaeaea;
-    border: 1px solid #f1a6f3;
+    border: 1px solid ##686248;
   }
   form.contact-form ul li input[type="submit"]:active {
     background: #d0d0d0;
