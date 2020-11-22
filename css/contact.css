@@ -1,6 +1,7 @@
 .contact-1 {
     margin-top: 48px;
     margin-bottom: 95px;
+    align-items: center;
 }
 
 .contact-1 h3 {
@@ -20,7 +21,6 @@ padding-bottom: 24px;
     /* -webkit-transition: box-shadow 0.4s ease;
     transition: box-shadow 0.4s ease;
     box-shadow: 0px 2px 10px #eee; */
-    background-color: #f2f3f5;
   }
 
   form.contact-form span {
@@ -43,14 +43,25 @@ padding-bottom: 24px;
     padding: 0;
     list-style: none;
   }
+.contact-form li {
+  display: flex;
+}
+
+.contact-box {
+  background-color: #f2f3f5;
+  padding: 0.5% 3%;
+  width: 120px;
+}
+
   form.contact-form ul li {
     padding: 0;
     border-bottom: 1px solid #ddd;
     margin: 0;
     text-align: center;
+    /* align-items: center; */
     width: 100%;
   }
-  form.contact-form ul li i.form-icon {
+  /* form.contact-form ul li i.form-icon {
     display: inline-block;
     vertical-align: middle;
     width: 2%;
@@ -59,7 +70,7 @@ padding-bottom: 24px;
     padding: 0;
     font-size: 16.275px;
     color: #aaa;
-  }
+  } */
   form.contact-form ul li input[type="text"] {
     width: 90%;
     background: none;
@@ -76,7 +87,7 @@ padding-bottom: 24px;
   }
   form.contact-form ul li input[type="text"]:focus {
     outline: none;
-    border-bottom: 3px solid #686248;
+    border-bottom: 3px solid #D71518;
   }
   form.contact-form ul li input[type="text"]::-webkit-input-placeholder {
     -webkit-transition: color 0.35s ease;
@@ -102,16 +113,16 @@ padding-bottom: 24px;
     color: #ccc;
   }
   form.contact-form ul li input[type="text"]:focus::-webkit-input-placeholder {
-    color: #686248;
+    color: #D71518;
   }
   form.contact-form ul li input[type="text"]:focus:-moz-placeholder {
-    color: #686248;
+    color: #D71518;
   }
   form.contact-form ul li input[type="text"]:focus::-moz-placeholder {
-    color: #686248;
+    color: #D71518;
   }
   form.contact-form ul li input[type="text"]:focus:-ms-input-placeholder {
-    color: #686248;
+    color: #D71518;
   }
   form.contact-form ul li textarea {
     display: inline-block;
@@ -134,7 +145,7 @@ padding-bottom: 24px;
   }
   form.contact-form ul li textarea:focus {
     outline: none;
-    border-bottom: 3px solid #686248;
+    border-bottom: 3px solid #D71518;
   }
   form.contact-form ul li textarea::-webkit-scrollbar {
     width: 4px;
@@ -167,16 +178,16 @@ padding-bottom: 24px;
     color: #ccc;
   }
   form.contact-form ul li textarea:focus::-webkit-input-placeholder {
-    color: ##686248;
+    color: #D71518;
   }
   form.contact-form ul li textarea:focus:-moz-placeholder {
-    color: ##686248;
+    color: #D71518;
   }
   form.contact-form ul li textarea:focus::-moz-placeholder {
-    color: ##686248;
+    color: #D71518;
   }
   form.contact-form ul li textarea:focus:-ms-input-placeholder {
-    color: ##686248;
+    color: #D71518;
   } 
   form.contact-form ul li input[type="submit"] {
     margin: 15px auto 15px;
@@ -193,11 +204,11 @@ padding-bottom: 24px;
   }
   form.contact-form ul li input[type="submit"]:focus {
     outline: none;
-    border: 1px solid ##686248;
+    border: 1px solid #D71518;
   }
   form.contact-form ul li input[type="submit"]:hover {
     background: #eaeaea;
-    border: 1px solid ##686248;
+    border: 1px solid #D71518;
   }
   form.contact-form ul li input[type="submit"]:active {
     background: #d0d0d0;
