@@ -1,0 +1,16 @@
+.preparation_1 {
+    margin: 0 auto;
+    margin-top: 48px;
+    margin-bottom: 95px;
+    align-items: center;
+}
+
+
+.pre2 {
+    width: auto;
+    height: 500px;
+    font-size: 24px;
+    padding-bottom: 24px;
+    display: table-cell;
+    vertical-align: middle;
+}
