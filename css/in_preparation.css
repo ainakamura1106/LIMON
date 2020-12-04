@@ -14,3 +14,8 @@
     display: table-cell;
     vertical-align: middle;
 }
+
+.pre2 span {
+    display: inline;
+    text-align: center;
+}
