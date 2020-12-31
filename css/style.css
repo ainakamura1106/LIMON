@@ -257,8 +257,8 @@ padding-top: 40px;
 #global-nav li {
 font-family: futura-pt, sans-serif;
 font-weight: 600;
-font-size: 12px;
-padding-bottom: 25px;
+font-size: 16px;
+padding-bottom: 29px;
 }
 
 #global-nav li a {
@@ -775,6 +775,7 @@ footer {
 
 .michi-link {
   padding: 0 72px;
+  text-align: center;
 }
 .amazon-link {
   display: inline-block;

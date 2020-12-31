@@ -121,33 +121,56 @@ background-size: cover;
 /************** セクション④ **************/
 
 .section4 {
-padding:5% 15% 5% 26%;
-text-align: center;
+padding:3% 15% 3% 26%;
+
 }
 
-.section4 h1 {
+.Company-title {
+  padding-bottom: 12px;
+}
+.Company-list {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #fff;
+  margin: 0 auto;
+  }
+
+.Company-list dt {
+width: 25.5%;
+padding: 2% 2% 2% 2.3%;
+line-height: 24px;
+border-top: 2px solid #fbfbfb;
+background-color: #f2f3f5;;
+}
+
+.Company-list dd {
+  line-height: 24px;
+  padding: 2%;
+  border-top: 2px solid #fbfbfb;
+  background-color: #fff;
+}
+
+/* .section4 h1 {
 text-align: center;
 padding-bottom: 36px;
 color: #222426;
 }
 .section4 div {
 text-align: left;
-}
+} */
 
-.company-inner {
+/* .company-inner {
 width: 100%;
 height: auto;
 background-color: #f2f3f5;
 padding: 8% 12%;
-}
+} */
 
-.section4 li{
+/* .section4 li{
 display: flex;
-/* justify-content: center; */
+} */
 
-}
-
-.company-title {
+/* .company-title {
   margin-left: 5%;
   padding-bottom: 14px;
   text-align: left;
@@ -155,14 +178,13 @@ display: flex;
 
 .company-t2 {
   margin-left: 45%;
-
 }
+
 .border-c{
 width: 100px;
 padding-bottom: 32px;
 border-top: solid #222426;
 border-width: thin;
-
 padding-top: 3%;
 }
 
@@ -172,7 +194,7 @@ padding-top: 3%;
 
 .border-e {
   border-bottom: solid 1px #686248;
-}
+} */
 /************** セクション④ END**************/
 
 
