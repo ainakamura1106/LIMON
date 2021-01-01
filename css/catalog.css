@@ -1,3 +1,6 @@
+
+/************ cotalog list START *************/
+
 .catalog_1 {
     width: 100%;
     height: auto;
@@ -8,38 +11,41 @@
 
 .cotalog-title {
     padding-bottom: 12px;
-  }
+}
 
-.catalog-list {
-    background-color: #fff;
-    margin: 0 auto;
-    width: 100%;
-    height: auto;
+ .catalog-list {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 45px;
  }
 
-.catalog-list dl {
+ .Clist-2 {
     display: flex;
-    width: 100%;
-    height: auto;    
-}
+    justify-content: space-between;
+ }
 
-.catalogdt img {
-    height: 100%;
+ .catalogP {
+    width: 170px;
+    line-height: 20px;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+ }
+
+li img {
+    width: 170px;
     object-fit: cover;
+    box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.3);
 }
 
-dt {
-    background-color: antiquewhite;
-    width: 30%;
-}
-dd {
-    width: 70%;
+h5 {
+    margin-top: 12px;
+    margin-bottom: 4px;
 }
 
-.catalog-box {
-    width: 40%;
-    height: auto;
-}
+
+/************ cotalog list END *************/
+
+
 
 .pre2 {
     width: auto;
