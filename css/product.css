@@ -166,7 +166,7 @@ a {
 
 
   /*----------------------------------------------
-sp設定 768px以下の表示
+sp設定 1000px以下の表示
 -----------------------------------------------*/
 @media (max-width: 1000px) {
 article {
@@ -206,4 +206,36 @@ article section {
   object-fit: cover;
 }
 
-}/* 768px END*/
+.footer-inner {
+  padding:4%;
+}
+.footer-nav {
+  display: block;
+  padding: 4%;
+  margin: 0;
+}
+
+.online__list {
+  display: block;
+  padding: 0;
+}
+
+.LIFEMONSTER-link {
+  padding: 1% 0 0 4%;
+}
+
+.MH-link {
+  padding: 1% 0 0 4%;
+}
+
+.NB-link {
+  padding: 1% 0 0 4%;
+}
+
+.on-a {
+  position: static;
+  text-align: left;
+  padding: 6% 0 6% 0;
+  font-size: ;
+}
+}/* 1000px END*/
