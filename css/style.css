@@ -724,7 +724,6 @@ footer {
   /* border-bottom: #d71518 solid 2px; */
 }
 
-
  .footer-nav {
    display: inline-block;
    display: flex;
@@ -773,17 +772,19 @@ footer {
   margin-right: 12px;
 }
 
-.michi-link {
+.MH-link {
   padding: 0 72px;
   text-align: center;
+  display: flex;
 }
-.amazon-link {
+
+.LIFEMONSTER-link {
   display: inline-block;
   display: flex;
   padding: 0 72px;
 }
 
-.rakuten-link {
+.NB-link {
   display: block;
   display: flex;
   padding: 0 72px;
@@ -1042,7 +1043,6 @@ display: none
 
   article {
       padding: 0 50px 0px 50;
-      /* //さいい可変 */
       width: 86%;
       margin: 0 14%;   
   }

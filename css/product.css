@@ -1,167 +1,211 @@
-
 a {
-text-decoration: none;
-color: #222426;
+  text-decoration: none;
+  color: #222426;
 }
 
 .contents_p1 {
-padding-top: 48px;
-width: 100%;
-height: auto;
+  padding-top: 48px;
+  width: 100%;
+  height: auto;
 }
 
-.contents_p1 h3 {
-font-size: 28px;
-letter-spacing: .15em;
-margin-bottom: 16px;
-padding: 0%;
+#product_oll h3 {
+  font-size: 18px;
+  letter-spacing: .15em;
+  padding: 0%;
+  font-weight: 800;
+  line-height:37px;
 }
 
-.contents_p1 p {
-font-size: 14px;
-letter-spacing: .15em;
-padding: 0%;
-width: 31%;
+#product_oll p {
+  font-size: 12px;
+  letter-spacing: .12em;
+  padding-top: 0%;
+  line-height: 22px;
+  width: 35%;
+  padding-bottom: 1%;
 }
 
-.main-image3 {
-width: 100%;
-height: auto;
-background-color: thistle;
-}
 
-.product_inner {
-width: 100%;
-background-color: bisque;
-display: flex;
-margin-bottom: 24px;
-}
+/*********** 商品プロデュース説明 ************/
 
+.product-img {
+  width: 1178px;
+  height: 80%;
+  object-fit: cover;
+}
 
 .p1-leftbox {
-width: 100%;
-height: auto;
-background-image: url(../images/p1-img-michi4.jpg);
-background-repeat: no-repeat;
-background-size: cover;
-padding: 8% 8% 30%;
-margin-bottom: 2%;
+  width: 100%;
+  height: auto;
+  margin-bottom: 2%;
+  position: relative;
 }
 
-.p1-text1 {
-width: 100%;
-height: auto;
-position: absolute;
-color: #ffffff;
-text-shadow: 0.1px 0.1px 5px #5c5c5c;
-
-    }
-
-.p1-lineup-inner{
-position: relative;
+ .p1-leftbox2 {
+  width: 100%;
+  height: auto;
+  margin-bottom: 2%;
+  position: relative;
 }
 
-.p1-leftbox2 {
-width: 100%;
-height: auto;
-background-image: url(../images/p1-img-shirokuma.jpg);
-background-repeat: no-repeat;
-background-size: cover;
-padding: 8% 8% 30%;
-margin-bottom: 2%;
-background-position-y: 74%;
+.p1-text {
+  width: fit-content;
+  height: auto;
+  position: absolute;
+  color: #ffffff;
+  bottom: 1.8%;
+  background: rgb(49 59 69 / 7%);
+  padding: 1% 1% 1% 5%;
 }
 
-.p1-text2 {
-width: 100%;
-height: auto;
-position: absolute;
-left: 65%;
-color: #ffffff;
-text-shadow: 0.1px 0.1px 5px #5c5c5c;
-}
+
 
 .p1-leftbox3 {
-width: 100%;
-height: auto;
-background-image: url(../images/works-by.png);
-background-repeat: no-repeat;
-background-size: cover;
-padding: 8% 8% 30%;
-margin-bottom: 2%;
-background-blend-mode: exclusion;
-filter: contrast(117%);
-background-color: rgba(0,235,225,0.2);
-background-position-y: 52%;
+  width: 100%;
+  height: auto;
+  margin-bottom: 8%;
+  position: relative;
 }
 
-.contents5 {
- background-color: #3f3232;
- width: 100%;
- height: 900px;
+/*********** 商品プロデュース説明END ************/
+
+/*********** contens_btnbox STERT ***********/
+
+
+/*チェックは見えなくする*/
+.buttons-coll_5 input {
+  display: none;
 }
 
-/**** BTN No. 5 ****/
+/*中身を非表示にしておく*/
+.buttons-coll_5 .hidden_show {
+  height: 0;
+  padding: 0;
+  overflow: hidden;
+  opacity: 0;
+  transition: 0.8s;
+}
+
+/*クリックで中身表示*/
+.buttons-coll_5 input:checked ~ .hidden_show {
+  padding: 10px 0;
+  height: auto;
+  opacity: 1;
+}
+
+/*********** BTN No. 5 アニメーション ***********/
 .btn-5 {
-    background-color: rgba(105, 98, 72, 10%);
-    width: 100%;
-    height: 72px;
-    line-height: 72px;
-    padding: 0;
-    border: none;
-    color: #686248;
-  }
-  .btn-5 span {
-    position: relative;
-    display: block;
-    width: 100%;
-    height: 100%;
-  }
-  .btn-5:before,
-  .btn-5:after {
-    position: absolute;
-    content: "";
-    right: 0;
-    top: 0;
-    background: #686248;
-    transition: all 0.3s ease;
-  }
-  .btn-5:before {
-    height: 0%;
-    width: 1px;
-  }
-  .btn-5:after {
-    width: 0%;
-    height: 1px;
-  }
-  .btn-5:hover:before {
-    height: 100%;
-    color: rgba(94, 94, 94, 0.5);
-  }
-  .btn-5:hover:after {
-    width: 100%;
-    color: rgba(255, 255, 255, 0.5);
-  }
-  .btn-5 span:before,
-  .btn-5 span:after {
-    position: absolute;
-    content: "";
-    left: 0;
-    bottom: 0;
-    background: #686248;
-    transition: all 0.3s ease;
-  }
-  .btn-5 span:before {
-    width: 1px;
-    height: 0%;
-  }
-  .btn-5 span:after {
-    width: 0%;
-    height: 1px;
-  }
-  .btn-5 span:hover:before {
-    height: 100%;
-  }
-  .btn-5 span:hover:after {
-    width: 100%;
-  }
+  background-color: rgba(105, 98, 72, 10%);
+  width: 100%;
+  height: 72px;
+  line-height: 72px;
+  padding: 0;
+  border: none;
+  color: #686248;
+  margin-bottom: 5%;
+}
+.btn-5 span {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.btn-5:before,
+.btn-5:after {
+  position: absolute;
+  content: "";
+  right: 0;
+  top: 0;
+  background: #686248;
+  transition: all 0.3s ease;
+}
+.btn-5:before {
+  height: 0%;
+  width: 1px;
+}
+.btn-5:after {
+  width: 0%;
+  height: 1px;
+}
+.btn-5:hover:before {
+  height: 100%;
+  color: rgba(94, 94, 94, 0.5);
+}
+.btn-5:hover:after {
+  width: 100%;
+  color: rgba(255, 255, 255, 0.5);
+}
+.btn-5 span:before,
+.btn-5 span:after {
+  position: absolute;
+  content: "";
+  left: 0;
+  bottom: 0;
+  background: #686248;
+  transition: all 0.3s ease;
+}
+.btn-5 span:before {
+  width: 1px;
+  height: 0%;
+}
+.btn-5 span:after {
+  width: 0%;
+  height: 1px;
+}
+.btn-5 span:hover:before {
+  height: 100%;
+}
+.btn-5 span:hover:after {
+  width: 100%;
+}
+
+/*********** BTN No. 5 アニメーションEND ***********/
+
+/*********** contens_btnbox END ***********/
+
+
+  /*----------------------------------------------
+sp設定 768px以下の表示
+-----------------------------------------------*/
+@media (max-width: 1000px) {
+article {
+  padding-left: 120px;
+}
+
+article section {
+  display: block;
+}
+
+.sp_header{
+  display: block;
+}
+
+#product_oll h3 {
+  font-size: 14px;
+  display: block;
+  padding: 5% 0% 4% 0%;
+  line-height: 0%;
+}
+
+#product_oll p {
+  width: fit-content;
+  height: auto;
+  font-size: 8px;
+  position: static;
+  padding: 0%;
+  line-height: 15px;
+}
+
+.p1-text {
+  padding: 0% 0% 3% 5%;
+  width: 98%;
+}
+
+.product-img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+}/* 768px END*/
