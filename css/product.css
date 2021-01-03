@@ -207,11 +207,11 @@ article section {
 }
 
 .footer-inner {
-  padding:4%;
+  padding:8%;
 }
 .footer-nav {
   display: block;
-  padding: 4%;
+  padding: 10%;
   margin: 0;
 }
 
@@ -221,20 +221,20 @@ article section {
 }
 
 .LIFEMONSTER-link {
-  padding: 1% 0 0 4%;
+  padding: 1% 0 0 10%;
 }
 
 .MH-link {
-  padding: 1% 0 0 4%;
+  padding: 1% 0 0 10%;
 }
 
 .NB-link {
-  padding: 1% 0 0 4%;
+  padding: 1% 0 0 10%;
 }
 
 .on-a {
   position: static;
   text-align: left;
-  padding: 6% 0 6% 0;
+  padding: 6% 0 6% 4;
 }
 }/* 1000px END*/
