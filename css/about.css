@@ -121,7 +121,7 @@ background-size: cover;
 /************** セクション④ **************/
 
 .section4 {
-padding:3% 15% 3% 26%;
+padding:3% 15% 1.3% 26%;
 
 }
 
@@ -137,7 +137,7 @@ padding:3% 15% 3% 26%;
 
 .Company-list dt {
 width: 25.5%;
-padding: 2% 2% 2% 2.3%;
+padding: 1.3% 2% 1.3% 2.3%;
 line-height: 24px;
 border-top: 2px solid #fbfbfb;
 background-color: #f2f3f5;;
@@ -145,7 +145,7 @@ background-color: #f2f3f5;;
 
 .Company-list dd {
   line-height: 24px;
-  padding: 2%;
+  padding: 1.3%;
   border-top: 2px solid #fbfbfb;
   background-color: #fff;
 }
