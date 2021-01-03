@@ -237,4 +237,8 @@ article section {
   text-align: left;
   padding: 6% 0 6% 4;
 }
+
+.on-a::before {
+display: none;
+}
 }/* 1000px END*/
