@@ -202,7 +202,7 @@ article section {
 
 .product-img {
   width: 100%;
-  height: fit-content;
+  height: 300px;
   object-fit: cover;
 }
 
