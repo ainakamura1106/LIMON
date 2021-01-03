@@ -170,14 +170,12 @@ sp設定 768px以下の表示
 -----------------------------------------------*/
 @media (max-width: 1000px) {
 article {
-  padding-left: 120px;
+  width: 100%;
+  margin: 0%;
+  padding: 0% 4% 0 4%;
 }
 
 article section {
-  display: block;
-}
-
-.sp_header{
   display: block;
 }
 

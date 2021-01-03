@@ -111,7 +111,6 @@ responsive
     left: 50%;
     transform: translateX(-50%);
     z-index: -4;/* 何かしらの要素の背面に設置*/
-    
   }
 
 
@@ -129,7 +128,6 @@ responsive
     margin: 0 auto;
     font-family: futura-pt, sans-serif;
     font-weight: 600;
-    
   }
 
   #global-nav li,
